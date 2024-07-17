@@ -88,7 +88,7 @@ public class Principal {
         alteraFilme.avalia(10);
         lista.set(0, alteraFilme);
 
-        //Para exibir a lista atualizada...
+        //Para exibir a lista atualizada....
         System.out.println("\nLista atualizada: ");
         for (Titulo tituloAtualizado : lista) {
             System.out.println(tituloAtualizado.getNome());
