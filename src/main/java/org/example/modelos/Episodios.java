@@ -1,6 +1,6 @@
 package org.example.modelos;
 
-import org.example.repository.interfaces.Midia;
+import org.example.repository.Midia;
 
 public class Episodios implements Midia {
     private int numero;

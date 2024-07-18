@@ -1,6 +1,6 @@
 package org.example.modelos;
 
-import org.example.repository.interfaces.Midia;
+import org.example.repository.Midia;
 
 public class Filme extends Titulo implements Midia {
     private String personagem;
