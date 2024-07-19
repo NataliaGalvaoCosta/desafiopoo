@@ -12,8 +12,10 @@ public class Filme extends Titulo implements Midia {
     public String getPersonagem() { return personagem; }
     //public void setPersonagem(String personagem) { this.personagem = personagem; }
 
-    public int getClassificacao() {
-        return (int) pegaMedia() / 2;
+    public double getClassificacao() {
+        double media = pegaMedia();
+        double classificacao = media / 2;
+        return Math.round(classificacao * 100.0) / 100;
     }
 
     @Override

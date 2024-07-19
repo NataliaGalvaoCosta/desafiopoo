@@ -19,7 +19,7 @@ public class Principal {
         filme01.avalia(4);
         filme01.avalia(2);
         System.out.println("Total de avaliações: " + filme01.getTotalDeAvaliacoes());
-        System.out.println(filme01.pegaMedia());
+        System.out.println(filme01.getClassificacao());
 
         System.out.println("\n");
 
@@ -30,7 +30,7 @@ public class Principal {
         filme02.avalia(10);
         filme02.avalia(10);
         System.out.println("Total de avaliações " + filme02.getTotalDeAvaliacoes());
-        System.out.println(filme02.pegaMedia());
+        System.out.println(filme02.getClassificacao());
 
         System.out.println("\n");
 

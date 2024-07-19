@@ -25,7 +25,7 @@ public class Episodios implements Midia {
     public void setSerie(Serie serie) {
         this.serie = serie;
     }
-    public int getClassificacao() {
+    public double getClassificacao() {
         if (totatVisualizacoes > 100) {
             return 4;
         } else {
